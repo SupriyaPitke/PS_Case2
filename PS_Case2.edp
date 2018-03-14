@@ -4,8 +4,9 @@
   <_Project>
     <ProjectName val="PS_Case2"/>
     <VCProjectID val="0"/>
-    <VCActive val="N"/>
+    <VCActive val="Y"/>
     <WorkOffline val="N"/>
+    <VCProjectName val="."/>
     <SourceDirectory val="Source"/>
     <ExportsDirectory val="Exports"/>
     <GUID val="{E4E6697A-51C0-4386-89A0-B659A3682769}"/>
