@@ -30,7 +30,7 @@
           <FormType val="N"/>
           <DotNetObjectExists val="N"/>
           <ToBeMigrated val="Y"/>
-          <LastModified _date="734234" _time="44884" date="07/04/2011" time="12:28:04"/>
+          <LastModified _date="736767" _time="62174" date="14/03/2018" time="17:16:14"/>
         </Header>
         <ItemIsn val="7"/>
         <Resource>
@@ -272,7 +272,7 @@
                   <Column val="3145735"/>
                   <Type val="V"/>
                   <IsParameter val="N"/>
-                  <_DitIndexForToolkit val="14"/>
+                  <_DitIndexForToolkit val="17"/>
                   <DIFF_UPDATE val="T"/>
                   <Condition val="Y"/>
                   <Modifier val="S"/>
@@ -316,7 +316,7 @@
           </LogicUnit>
         </TaskLogic>
         <TaskForms>
-          <FormEntry _last_isn="16" _last_test_id="55" id="1">
+          <FormEntry _last_isn="19" _last_test_id="58" id="1">
             <PropertyList model="FORM_GUI0">
               <X id="21" val="3"/>
               <Y id="22"/>
@@ -502,6 +502,33 @@
                 <ControlName id="46" val="Field 6_0001"/>
                 <_Orientation id="143"/>
                 <TabOrder id="314" val="6"/>
+              </PropertyList>
+            </Control>
+            <Control _test_id="57" id="70254610">
+              <PropertyList model="CTRL_GUI0_STATIC">
+                <Text id="19" valUnicode="Text"/>
+                <X id="21" val="62"/>
+                <Y id="22" val="106"/>
+                <Width id="23" val="18"/>
+                <Height id="24" val="9"/>
+                <EnableRTF id="69"/>
+              </PropertyList>
+            </Control>
+            <Control _test_id="56" id="70254609">
+              <PropertyList model="CTRL_GUI0_STATIC">
+                <Text id="19" valUnicode="Text"/>
+                <X id="21" val="28"/>
+                <Y id="22" val="107"/>
+                <Width id="23" val="18"/>
+                <Height id="24" val="9"/>
+                <EnableRTF id="69"/>
+              </PropertyList>
+            </Control>
+            <Control PDOD="128" _test_id="58" id="70254611">
+              <PropertyList model="CTRL_GUI0_LINE">
+                <X1 id="21" val="22"/>
+                <Y1 id="22" val="123"/>
+                <X2 id="23" val="77"/>
               </PropertyList>
             </Control>
             <Control _test_id="55" id="3145741">
