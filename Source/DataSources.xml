@@ -69,12 +69,12 @@
     <Column id="5" name="Node ID">
       <PropertyList model="FIELD">
         <Model attr_obj="FIELD_ALPHA" id="1"/>
-        <Picture id="157" valUnicode="10"/>
+        <Picture id="157" valUnicode="40"/>
         <StoredAs id="173" val="1"/>
-        <Size id="174" val="10"/>
+        <Size id="174" val="40"/>
         <Definition id="175" val="2"/>
         <_Flip id="194"/>
-        <_FieldPhysical PIC_U="10" Size="10" allowed_null="N" attribute="A" context_cookies="Y" database_definition="2" id="231" storage="1" translate="1"/>
+        <_FieldPhysical PIC_U="40" Size="40" allowed_null="N" attribute="A" context_cookies="Y" database_definition="2" id="231" storage="1" translate="1"/>
       </PropertyList>
     </Column>
     <Column id="4" name="Parent ID">
@@ -124,7 +124,7 @@
       <Primary val="N"/>
       <Segments>
         <Segment>
-          <Size val="10"/>
+          <Size val="40"/>
           <Column val="5"/>
           <Order val="A"/>
         </Segment>
