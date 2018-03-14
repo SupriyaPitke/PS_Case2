@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no" ?>
 <Application>
-
   <Header>
     <Version val="13030.00"/>
     <WithIsn val="Y"/>
@@ -9,7 +8,6 @@
     <InIndex val="N"/>
     <UniqueISNConvState val="12"/>
   </Header>
-
   <ProgramsRepository>
     <Programs>
       <Task MainProgram="N">
@@ -30,9 +28,9 @@
           <FormType val="N"/>
           <DotNetObjectExists val="N"/>
           <ToBeMigrated val="Y"/>
-          <LastModified _date="736767" _time="62174" date="14/03/2018" time="17:16:14"/>
+          <LastModified _date="736767" _time="62551" date="3/14/2018" time="17:22:31"/>
         </Header>
-        <ItemIsn val="7"/>
+        <ItemIsn val="8"/>
         <Resource>
           <Columns>
             <Column id="3145729" name="Field 1">
@@ -272,7 +270,7 @@
                   <Column val="3145735"/>
                   <Type val="V"/>
                   <IsParameter val="N"/>
-                  <_DitIndexForToolkit val="17"/>
+                  <_DitIndexForToolkit val="14"/>
                   <DIFF_UPDATE val="T"/>
                   <Condition val="Y"/>
                   <Modifier val="S"/>
@@ -316,7 +314,7 @@
           </LogicUnit>
         </TaskLogic>
         <TaskForms>
-          <FormEntry _last_isn="19" _last_test_id="58" id="1">
+          <FormEntry _last_isn="16" _last_test_id="55" id="1">
             <PropertyList model="FORM_GUI0">
               <X id="21" val="3"/>
               <Y id="22"/>
@@ -531,6 +529,23 @@
                 <X2 id="23" val="77"/>
               </PropertyList>
             </Control>
+            <Control _test_id="58" id="103809043">
+              <PropertyList model="CTRL_GUI0_STATIC">
+                <Text id="19" valUnicode="Text"/>
+                <X id="21" val="134"/>
+                <Y id="22" val="200"/>
+                <Width id="23" val="18"/>
+                <Height id="24" val="9"/>
+                <EnableRTF id="69"/>
+              </PropertyList>
+            </Control>
+            <Control PDOD="128" _test_id="57" id="103809042">
+              <PropertyList model="CTRL_GUI0_LINE">
+                <X1 id="21" val="40"/>
+                <Y1 id="22" val="224"/>
+                <X2 id="23" val="77"/>
+              </PropertyList>
+            </Control>
             <Control _test_id="55" id="3145741">
               <PropertyList model="CTRL_GUI0_STATIC">
                 <Text id="19" valUnicode="Last event"/>
@@ -599,6 +614,18 @@
                 <Border id="452"/>
               </PropertyList>
             </Control>
+            <Control _test_id="56" id="103809041">
+              <PropertyList model="CTRL_GUI0_STATIC">
+                <Text id="19" valUnicode="Rich text"/>
+                <X id="21" val="14"/>
+                <Y id="22" val="196"/>
+                <Width id="23" val="77"/>
+                <Height id="24" val="16"/>
+                <Style id="63" val="3"/>
+                <EnableRTF id="69" val="Y"/>
+                <MultiLine id="71" val="Y"/>
+              </PropertyList>
+            </Control>
           </FormEntry>
         </TaskForms>
         <Expressions>
@@ -628,5 +655,4 @@
       </Task>
     </Programs>
   </ProgramsRepository>
-
 </Application>
